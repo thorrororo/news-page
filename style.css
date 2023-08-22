@@ -1,0 +1,379 @@
+/* Created by thorrow */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* PC */
+@media screen and (min-width: 650px) {
+.topnav {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#links a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+}
+
+#links li {
+    display: block;
+    list-style: none;
+    float: right;
+    padding: 10px;
+    font-size: large;
+}
+
+.icon {
+    display: none;
+}
+
+
+#links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.logo {
+    font-size: x-large;
+    float: left;
+    padding: 17px;
+    padding-left: 50px;
+}
+
+.logo:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 100px;
+    width: 100%;
+    text-align: left;
+    word-spacing: 200px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.title:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.bottom-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    width: 100%;
+    text-align: left;
+    word-spacing: 200px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bottom-title a {
+    color: black;
+}
+
+.bottom-title:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.mini-body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.news-left {
+    border: 1px rgb(255, 255, 255) solid;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    float: left;
+    width: 49.9%;
+    padding: 25px;
+    border-radius: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.news-desc {
+    opacity: 1;
+}
+
+.news-desc:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.news-right {
+    border: 1px rgb(255, 255, 255) solid;
+    float: right;
+    width: 49.9%;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.news-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+.news-title:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.news-date {
+    font-size: larger;
+}
+
+.news-date {
+    font-size: larger;
+}
+
+.news-date:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.news-img {
+    border: 2px white solid;
+    text-align: center;
+    border-radius: 25px;
+    width: max-content;
+    margin-top: 25px;
+}
+
+.news-img img {
+    padding: 10px;
+}
+
+.bottomnav {
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+.bottomnav a {
+    float: none;
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+}
+
+.bottomnav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+}
+
+/* PHONE */
+@media screen and (max-width: 649px) {
+.topnav {
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+    color: white;
+}
+#links a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+#links {
+    display: none;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+#links li, a {
+    color: white;
+    padding-bottom: 10px;
+    list-style: none;
+    text-decoration: none;
+    display: block;
+}
+
+
+#links ul {
+    padding-top: 20px;
+    border-top: 1px #ffffff solid
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icon {
+    display: block;
+    color: white;
+    float: right;
+    margin-right: 50px;
+    padding: 20px;
+    font-size: large;
+}
+
+.icon:hover {
+    opacity: 0.8;
+    transition: all 2s ease 0s;
+}
+
+.logo {
+    font-size: x-large;
+    float: left;
+    padding: 17px;
+    margin-left: 50px;
+}
+
+.logo:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 60px;
+    width: 100%;
+    text-align: left;
+    word-spacing: 200px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.title:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.bottom-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    width: 100%;
+    text-align: left;
+    word-spacing: 200px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bottom-title a {
+    color: black;
+}
+
+.bottom-title:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.mini-body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.news-left {
+    border: 1px rgb(255, 255, 255) solid;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+    padding: 25px;
+    border-radius: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.news-desc {
+    opacity: 1;
+}
+
+.news-desc:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.news-right {
+    border: 1px rgb(255, 255, 255) solid;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.news-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+.news-title:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.news-date {
+    font-size: larger;
+}
+
+.news-date:hover {
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+
+.news-img {
+    border: 2px white solid;
+    text-align: center;
+    border-radius: 25px;
+    width: max-content;
+    margin-top: 25px;
+}
+
+.news-img img {
+    padding: 10px;
+}
+
+.bottomnav {
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+.bottomnav a {
+    float: none;
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+}
+
+.bottomnav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    opacity: 0.80;
+    transition: all 2s ease 0s;
+}
+}
